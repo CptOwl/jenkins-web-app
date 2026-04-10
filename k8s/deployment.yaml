@@ -16,8 +16,8 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: my-nginx-web:latest
-        imagePullPolicy: Never
+        image: cptowl/my-nginx-web:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
         resources:
